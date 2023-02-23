@@ -10,6 +10,7 @@ export default function Product({ id, title, image, price, rating }) {
 
 
     const addToBasket = () => {
+
         dispatch(ADD_ITEM({
             item: {
                 id: Date.now(),

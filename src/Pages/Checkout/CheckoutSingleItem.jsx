@@ -1,9 +1,20 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { REMOVE_ITEM } from '../../Features/BasketSlice/BasketSlice';
 
 const CheckoutSingleItem = (props) => {
+    const { id, title, image, price, rating } = props
 
-    const { id, title, image, price, rating } = props.item
+    const dispatch = useDispatch()
+
+
+    const RemoveItem = () => {
+        dispatch(REMOVE_ITEM({ id }))
+    }
+
+
     return (
+
 
         <div className="product bg-white rounded-md flex items-start justify-start m-3 p-5 w-5/12 min-h-[100px] min-w-[100px]">
             <div className="bg-blue-500 max-w-[20%] h-full overflow-hidden flex items-center justify-center">
@@ -18,7 +29,7 @@ const CheckoutSingleItem = (props) => {
                     <strong>{price}</strong>
                 </p>
 
-                <button className='border border-rose-100 self-end p-2 m-2 rounded-md hover:bg-rose-600 hover:text-white'>Remove </button>
+                <button onClick={RemoveItem} className='border border-rose-100 self-end p-2 m-2 rounded-md hover:bg-rose-600 hover:text-white'>Remove </button>
             </div>
         </div>
     );
