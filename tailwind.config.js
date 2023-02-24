@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      Galantis: ["Galantis"],
+      Rosellinda: ["Rosellinda Alyamore"],
+      GoldenPlains: ["Golden Plains"]
+    }
   },
   plugins: [],
 }
