@@ -12,6 +12,15 @@ export default function Navbar() {
 
 
 
+    // !! NEED TO COMPLETE
+    const searchProducts = (e) => {
+
+        const userSearched = e.target.value
+
+
+    }
+
+
 
 
     return (
@@ -23,7 +32,7 @@ export default function Navbar() {
             </Link>
             <div className={style.searchBox}>
 
-                <input className={style.searchInput} type="text" name="" placeholder="Search" />
+                <input className={style.searchInput} type="text" name="" placeholder="Search" onChange={searchProducts} />
                 <button className={style.searchButton} href="#">
                     <i className="text-2xl">
                         <RiSearch2Line />
