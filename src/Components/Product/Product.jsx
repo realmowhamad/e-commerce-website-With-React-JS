@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { ADD_ITEM } from "../../Features/BasketSlice/BasketSlice";
 
 export default function Product({ id, title, image, price, rating }) {
-
+    const [modal, setmModal] = useState(false)
     const Basket = useSelector(state => state.Basket)
     const { basketItems } = Basket
     const dispatch = useDispatch()
