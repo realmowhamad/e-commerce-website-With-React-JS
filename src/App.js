@@ -14,7 +14,7 @@ function App() {
   return (
 
     <Provider store={store}>
-      <div className="App bg-gray-400 w-screen h-auto">
+      <div className="App  w-screen min-h-screen">
         <Navbar />
         {route}
       </div>

@@ -1,0 +1,98 @@
+{
+ "products": [
+  {
+   "genderID": 1,
+   "gender": "mens",
+   "genderImage": "",
+   "Allproducts": [
+    {
+     "type": "Waist short",
+     "price": 39.00,
+     "image": "../Images/Harris Elastic Waist Short 39.00.jpg",
+     "rating": 4,
+     "title":"Harris Elastic Waist Short",
+     "productID": 187621387261
+    },
+    {
+     "type": "polo",
+     "price": 69.99,
+     "image": "../Images/LS Calvin Stripe Rugby Polo 69.99.jpg",
+     "rating": 4,
+     "title": "LS Calvin Stripe Rugby Polo",
+     "productID": 2172639671
+    },
+    {
+     "type": "pant",
+     "price": 79.99,
+     "image": "../Images/Dean Chino Pant 79.99.jpg",
+     "rating": 4,
+     "title": "Dean Chino Pant",
+     "productID": 89137128973
+    },
+    {
+     "type": "shirt",
+     "price": 69.99,
+     "image": "../Images/LS Heston Oxford Shirt 69.99.jpg",
+     "rating": 5,
+     "title": "LS Heston Oxford Shirt",
+     "productID": ""
+    },
+    {
+     "type": "jacket",
+     "price": 99.99,
+     "image": "../Images/Rowan Hooded Shacket 99.99.jpg",
+     "rating": 4,
+     "title": "Rowan Hooded Shacket",
+     "productID": 89123981273192
+    }
+   ]
+  },
+  {
+   "genderID": 2,
+   "gender": "women",
+   "genderImage": "",
+   "Allproducts": [
+    {
+     "type": "Blouse",
+     "price": 29.99,
+     "image": "../Images/Drop Shoulder Tee 29.99.jpg",
+     "rating":5,
+     "title": "Drop Shoulder Tee",
+     "productID": 1
+    },
+    {
+     "type": "Blouse",
+     "price": 59.99,
+     "image": "../Images/Astrid Tie Front Blouse 59.99.jpg",
+     "rating": 4,
+     "title": "Astrid Tie Front Blouse",
+     "productID": 2
+    },
+    {
+     "type": "Blouse",
+     "price": 59.99,
+     "image": "../Images/Ivy V Neck Ruffle Top 59.99.jpg",
+     "rating": 5,
+     "title": "Ivy V Neck Ruffle Top",
+     "productID": 3
+    },
+    {
+     "type": "Blouse",
+     "price": 69.99,
+     "image": "../Images/Katia Satin Shirt 69.99.jpg",
+     "rating": 4,
+     "title": "Katia Satin Shirt",
+     "productID": 4
+    },
+    {
+     "type": "Blouse",
+     "price": 59.99,
+     "image": "../Images/Olive Button Down Blouse 59.99.jpg",
+     "rating": 5,
+     "title": "Olive Button Down Blouse",
+     "productID": 5
+    }
+   ]
+  }
+ ]
+}
