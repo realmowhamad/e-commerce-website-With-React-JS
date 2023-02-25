@@ -12,3 +12,47 @@
     font-family: "Golden Plains";
     src: url('./Golden\ Plains.ttf');
 }
+
+
+
+
+/*-------------------------SFPRO-----------------------------------*/
+
+@font-face {
+    font-family: "sfp_Thin";
+    src: url('./SFProDisplay-Thin.woff');
+}
+@font-face {
+    font-family: "sfp_Light";
+    src: url('./SFProDisplay-Light.woff');
+}
+@font-face {
+    font-family: "sfp_UltraLight";
+    src: url('./SFProDisplay-Ultralight.woff');
+}
+@font-face {
+    font-family: "sfp_Black";
+    src: url('./SFProDisplay-Black.woff');
+}
+@font-face {
+    font-family: "sfp_Bold";
+    src: url('./SFProDisplay-Bold.woff');
+}
+@font-face {
+    font-family: "sfp_Heavy";
+    src: url('./SFProDisplay-Heavy.woff');
+}
+@font-face {
+    font-family: "sfp_Medium";
+    src: url('./SFProDisplay-Medium.woff');
+}
+@font-face {
+    font-family: "sfp_Regular";
+    src: url('./SFProDisplay-Regular.woff');
+}
+@font-face {
+    font-family: "sfp_SemiBold";
+    src: url('./SFProDisplay-Semibold.woff');
+}
+
+

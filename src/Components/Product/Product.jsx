@@ -33,7 +33,7 @@ export default function Product({ id, title, image, price, rating }) {
 
     return (
         <>
-            <div onClick={addToBasket} className={`${style.Product}  flex flex-col items-start justify-start flex-1 min-w-[12rem] max-w-[12rem] h-[15rem] m-2 p-1 `}>
+            <div onClick={addToBasket} className={`${style.Product} flex flex-col items-start justify-start flex-1 min-w-[12rem] max-w-[12rem] h-[15rem] m-2 p-1 `}>
                 <div className={`${style.Product__ImageContainer} bg-reds-500 w-full min-h-max overflow-hidden`}>
                     <img className="w-full  " src={image} alt="" />
                 </div>
