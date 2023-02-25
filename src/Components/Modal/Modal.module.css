@@ -1,0 +1,27 @@
+.modalContent{
+    animation: modalContent 0.5s ease-out;
+    transform: translateY(120px);
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+}
+
+.modalContainer{
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.45);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@keyframes modalContent {
+    0%{transform: translateY(-100px);}
+    75%{transform: translateY(150px);}
+    100%{transform: translateY(120px);}
+    
+}
