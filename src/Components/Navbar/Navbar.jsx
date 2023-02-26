@@ -1,15 +1,22 @@
-import { RiShoppingBag3Fill, RiSearch2Line } from 'react-icons/ri'
+import { RiShoppingBag3Fill, RiMenuFill, RiSearch2Line } from 'react-icons/ri'
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import style from './Navbar.module.css'
 import Logo from '../../Assets/Images/logo.svg'
+import useMediaQuery from '../../Hooks/useMediaQuery'
+
+
+
+
+
 export default function Navbar() {
     const Basket = useSelector(state => state.Basket)
     const { basketItems } = Basket
 
+    const isMobile = useMediaQuery('(max-width: 600px)');
     const [modal, setModal] = useState(false);
-
+    const [mobileMenu, setMobileMenu] = useState(false)
 
 
     // !! NEED TO COMPLETE
@@ -23,32 +30,62 @@ export default function Navbar() {
 
 
 
+
+
+
     return (
-        <nav className='bg-white w-full h-14 flex justify-between items-center px-10'>
+        <nav className='bg-slate-100 w-full h-14 flex justify-between relative items-center px-10'>
             <Link to={"/"}>
                 <div className="navbar__logo p-2 w-16 flex items-center">
                     <img src={Logo} alt="" className='w-full object-fill ' />
                 </div>
             </Link>
-            <div className={style.searchBox}>
 
-                <input className={style.searchInput} type="text" name="" placeholder="Search" onChange={searchProducts} />
-                <button className={style.searchButton} href="#">
-                    <i className="text-2xl">
-                        <RiSearch2Line />
-                    </i>
-                </button>
-            </div>
-            {/* <div className={`${style.navbar__search} navbar__searchBar  flex items-center justify-center rounded-lg transition-all ${modal ? "w-3/12 bg-[#faa434]" : "hidw-auto"}`}>
-                <input type="text" placeholder='search anything ...' className={`p-2 rounded-lg flex-1 border-4 transition-all border-[#faa434] ${modal ? "block" : "hidden"}`} />
-                <i className={` font-black text-3xl text-[#faa434] ${modal ? " border-[#faa434]  p-2" : ""}`} onClick={() => setModal(prev => !prev)}><RiSearch2Line /></i>
-            </div> */}
-            <Link to={"/checkout"}>
-                <div className="navbar__basket flex items-center justify-center relative">
-                    <i className='text-[#faa434] text-4xl sm:text-3xl'><RiShoppingBag3Fill /></i>
-                    <p className='bg-[#faa434] rounded-full absolute px-2 top-[-10px] left-5 flex items-center justify-center text-white'>{basketItems.length}</p>
+            <ul className={`${isMobile && mobileMenu ? `${style.mobile__Navbar}` : `${isMobile && !mobileMenu ? 'hidden' : `${style.navbar__ul} flex w-7/12 items-center h-full justify-around font-sfp_SemiBold text-neutral-700`}`}  `}>
+                <Link to={""}>
+                    <li>Men</li>
+                </Link>
+                <Link to={""}>
+                    <li>Women</li>
+                </Link>
+                <Link to={""}>
+                    <li>Kids</li>
+                </Link>
+                <Link to={""}>
+                    <li>Offers</li>
+                </Link>
+            </ul>
+
+
+
+
+
+            <div className={`${style.navbar__icons}   flex items-center justify-between `}>
+
+
+                <div className={style.searchBox}>
+
+                    <input className={style.searchInput} type="text" name="" placeholder="Search" />
+                    <button className={style.searchButton} href="#">
+                        <i className="text-[1.5rem]">
+                            <RiSearch2Line />
+                        </i>
+                    </button>
                 </div>
-            </Link>
+                <Link to={"/checkout"}>
+                    <div className="navbar__basket flex items-center justify-center relative">
+                        <i className='text-[1.5rem]'><RiShoppingBag3Fill /></i>
+                        <p className='bg-[#faa434] rounded-full absolute px-2 top-[-10px] left-8 flex items-center justify-center text-white'>{basketItems.length}</p>
+                    </div>
+                </Link>
+
+                {isMobile && (
+                    <div onClick={() => setMobileMenu(prev => !prev)}>
+                        <i className='text-[1.5rem]'><RiMenuFill /></i>
+                    </div>)
+                }
+
+            </div>
         </nav>
     )
 }

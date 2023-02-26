@@ -27,7 +27,7 @@ export default function Product({ id, title, image, price, rating }) {
 
         setTimeout(() => {
             setmModal(false)
-        }, 1500)
+        }, 1000)
     }
 
 

@@ -13,8 +13,8 @@ export default function Modal({ title }) {
             <div className={`${style.modalContent} bg-green-300 w-auto  h-12 mb-4 rounded-lg py-10 flex items-center`}>
                 <i className="text-3xl text-green-700"><BsCheck /></i>
                 <p className="text-green-700">{title}</p>
-
             </div>
+
         </div>
     )
 }
