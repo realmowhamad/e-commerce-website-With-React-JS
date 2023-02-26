@@ -94,5 +94,11 @@
     }
    ]
   }
+ ],
+ "HeaderBanner":[
+    {"id":1,"url":"../Images/Banner-1.jpg"},
+    {"id":2,"url":"../Images/Banner-2.jpg"},
+    {"id":3,"url":"../Images/Banner-3.jpg"},
+    {"id":5,"url":"../Images/Banner-5.jpg"}
  ]
 }
