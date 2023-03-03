@@ -67,7 +67,7 @@ export default function Navbar() {
 
                     <input className={style.searchInput} type="text" name="" placeholder="Search" />
                     <button className={style.searchButton} href="#">
-                        <i className="text-[1.5rem]">
+                        <i className=" text-[1.5rem]">
                             <RiSearch2Line />
                         </i>
                     </button>
@@ -75,7 +75,7 @@ export default function Navbar() {
                 <Link to={"/checkout"}>
                     <div className="navbar__basket flex items-center justify-center relative">
                         <i className='text-[1.5rem]'><RiShoppingBag3Fill /></i>
-                        <p className='bg-[#faa434] rounded-full absolute px-2 top-[-10px] left-8 flex items-center justify-center text-white'>{basketItems.length}</p>
+                        <p className='bg-[#faa434]  rounded-full absolute px-2 top-[-10px] left-8 flex items-center justify-center text-white'>{basketItems.length}</p>
                     </div>
                 </Link>
 

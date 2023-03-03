@@ -14,7 +14,7 @@ function App() {
   return (
 
     <Provider store={store}>
-      <div className="App  w-screen min-h-screen">
+      <div className="App  w-screen min-h-screen overflow-hidden">
         <Navbar />
         {route}
       </div>

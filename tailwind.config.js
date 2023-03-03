@@ -16,6 +16,19 @@ module.exports = {
       sfp_Medium: ["sfp_Medium"],
       sfp_Regular: ["sfp_Regular"],
       sfp_SemiBold: ["sfp_SemiBold"],
+    },
+    screens: {
+      'tablet': '640px',
+      'laptop': '1024px',
+      'desktop': '1280px',
+    },
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      '1xl': '1.563rem',
+      '2xl': '2rem',
+      '2.5xl': '2.5',
 
     }
   },

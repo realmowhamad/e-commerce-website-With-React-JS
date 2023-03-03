@@ -34,10 +34,10 @@ export default function Crausel() {
     if (error) return <p>{error}</p>
     return (
         <div>
-            <Slider className="flex items-center justify-center border" {...settings}>
+            <Slider className="flex items-center justify-center border laptop:max-w-full " {...settings}>
                 {banners.map(item => (
                     <div className="" key={item.id}>
-                        <img className="w-full " src={item.url} alt="" />
+                        <img className="w-full laptop:max-w-[80%] mx-auto rounded-[10px] " src={item.url} alt="" />
                     </div>
                 ))}
             </Slider>

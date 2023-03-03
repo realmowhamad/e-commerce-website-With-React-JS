@@ -12,7 +12,7 @@ const BasketSlice = createSlice({
         ADD_ITEM: (state, action) => {
             return {
                 ...state,
-                basketItems: [...state.basketItems, action.payload.item]
+                basketItems: [...state.basketItems, action.payload.item],
             }
         },
         REMOVE_ITEM: (state, action) => {
