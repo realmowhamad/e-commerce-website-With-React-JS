@@ -10,9 +10,11 @@ import Modal from "../Modal/Modal";
 
 export default function ProductDetail() {
     const ProductState = useSelector(state => state.Products)
+    const Basket = useSelector(state => state.Basket)
+    const { basketItems } = Basket
     const { products } = ProductState
     const [loadedItem, setLoadedItem] = useState(null)
-    const [Quantity, setQuantity] = useState(0)
+    const [Quantity, setQuantity] = useState(1)
     const [discountValue, setdiscountValue] = useState(null)
     const [modal, setmModal] = useState(false)
 
@@ -34,7 +36,7 @@ export default function ProductDetail() {
 
     useEffect(() => {
         if (loadedItem) {
-            const floorNum = (loadedItem.price - (loadedItem.price * loadedItem.discount / 100)).toFixed(2)
+            const floorNum = +(loadedItem.price - (loadedItem.price * loadedItem.discount / 100)).toFixed(2)
             setdiscountValue(floorNum)
         }
     }, [loadedItem])
@@ -50,25 +52,33 @@ export default function ProductDetail() {
 
 
     const addToBasket = () => {
-        Dispatch(ADD_ITEM({
-            item: {
-                id: loadedItem.id,
-                title: loadedItem.title,
-                image: loadedItem.image,
-                price: loadedItem.price,
-                discount: loadedItem.discount,
-                lastPrice: discountValue,
-                discription: loadedItem.description,
-                quantity: Quantity,
-            }
-        }))
-        setmModal(true)
-        setTimeout(() => {
-            setmModal(false)
-        }, 1000)
+        console.log("loadedItemID : ", loadedItem.id);
+        const duplicateItem = basketItems.find(item => item.id === loadedItem.id)
 
+        if (!duplicateItem) {
+            Dispatch(ADD_ITEM({
+                item: {
+                    id: loadedItem.id,
+                    title: loadedItem.title,
+                    image: loadedItem.image,
+                    price: loadedItem.price,
+                    discount: loadedItem.discount,
+                    lastPrice: discountValue,
+                    discription: loadedItem.description,
+                    quantity: Quantity,
+                    warranty: loadedItem.warranty,
+                    delivery: loadedItem.delivery
+                }
 
+            }))
+            setmModal(true)
+            setTimeout(() => {
+                setmModal(false)
+            }, 1000)
 
+        } else {
+            alert("Yo cant add this item")
+        }
     }
 
 
@@ -96,22 +106,6 @@ export default function ProductDetail() {
                             <button onClick={incraseHandler} className="p-3 border-2 rounded-[10px]"><BiPlus /></button>
                         </div>
                     </div>
-                    {/* 
-                    <div>
-                        {loadedItem.warranty && (
-                            <div className="flex  items-center font-sfp_Regular">
-                                <i className=""><BiCheck /></i>
-                                <p>{loadedItem.warranty} days Warranty</p>
-                            </div>
-                        )}
-                        {loadedItem.warranty && (
-                            <div className="flex  items-center font-sfp_Regular">
-                                <i ><BiCheck /></i>
-                                <p>{loadedItem.warranty} days delivery</p>
-                            </div>
-                        )}
-
-                    </div> */}
                     <div className="mt-5">
                         <p className="font-sfp_Medium text-xl text-gray-400 line-through">${loadedItem.price}</p>
                         <p className="font-sfp_Medium text-1xl">${discountValue}</p>

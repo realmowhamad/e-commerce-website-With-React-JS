@@ -1,0 +1,96 @@
+.CheckoutContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9%;
+    width: 100vw;
+    min-height: calc(100vh - 3.5rem);
+
+
+
+}
+
+.checkout__list {
+
+    grid-area: 1/1/2/2;
+}
+
+.Checkout__bottomBar {
+    grid-area: 2/1/3/2;
+    margin-top: auto;
+
+}
+
+
+.basketProduct {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr;
+    background: rgba(255, 255, 255, 0.5);
+box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 1rem;
+
+}
+
+.imageContainer {
+    grid-area: 1/1/3/2;
+
+    
+
+}
+
+.imageContainer img {
+grid-area: 1/1/2/2;
+
+}
+
+
+.basket__productInfo {
+    grid-area: 1/2/3/3;
+    display: grid;
+    grid-template-rows: 30% 20% 1fr;
+    grid-template-columns:40% 40% 20%;
+}
+
+.basket__productRemoveBtn {
+    grid-area: 3/3/4/4;
+
+}
+
+.basket__productRemoveBtn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baset__productTitle {
+    grid-area: 1/1/2/4;
+}
+
+.basket__productDiscount {
+
+    grid-area: 2/2/3/3;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 10px 0;
+}
+
+.baset__productPrice {
+    grid-area: 3/1/4/2;
+
+
+}
+
+.baset__productOffers {
+    grid-area: 2/1/3/4;
+}
+
+.basket__productQuantity {
+    grid-area: 3/2/4/3;
+
+    
+}

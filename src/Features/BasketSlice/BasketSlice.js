@@ -20,9 +20,15 @@ const BasketSlice = createSlice({
             return {
                 basketItems: [...filtredItem]
             }
+        },
+        ADD_QUANTITY: (state, action) => {
+            const { id, Quantity } = action.payload
+            const itemChanged = state.basketItems.findIndex(item => item.id === id)
+            state.basketItems[itemChanged].quantity = Quantity
+            console.log(id, Quantity);
         }
     }
 })
 
-export const { ADD_ITEM, REMOVE_ITEM } = BasketSlice.actions
+export const { ADD_ITEM, REMOVE_ITEM, ADD_QUANTITY } = BasketSlice.actions
 export default BasketSlice.reducer

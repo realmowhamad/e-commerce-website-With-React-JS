@@ -16,7 +16,9 @@ function App() {
     <Provider store={store}>
       <div className="App  w-screen min-h-screen overflow-hidden">
         <Navbar />
-        {route}
+        <div className='routes'>
+          {route}
+        </div>
       </div>
     </Provider>
   );

@@ -34,7 +34,7 @@ export default function Navbar() {
 
 
     return (
-        <nav className='bg-slate-100 w-full h-14 flex justify-between relative items-center px-10'>
+        <nav className={`${style.navbar} bg-slate-100 w-full h-14 flex justify-between relative items-center px-10`}>
             <Link to={"/"}>
                 <div className="navbar__logo p-2 w-16 flex items-center">
                     <img src={Logo} alt="" className='w-full object-fill ' />
