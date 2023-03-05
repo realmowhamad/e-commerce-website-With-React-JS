@@ -32,9 +32,9 @@ export default function Mainpage() {
                     <Product key={product.id} {...product} />
                 ))}
             </div>
-            <div className="p-2 rounded-[10px] w-full"  >
+            <div className="p-2 rounded-[10px] bg-red"  >
                 <Link to="/" >
-                    <img src={Banner} alt="" className="rounded-[10px] w-full" />
+                    <img src={Banner} alt="" className="rounded-[10px]" />
                 </Link>
             </div>
             <div className="flex flex-wrap justify-center p-2 mt-2 laptop:items-center laptop:justify-around">
