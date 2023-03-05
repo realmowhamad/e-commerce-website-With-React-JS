@@ -1,0 +1,35 @@
+.mainSection {
+    background: linear-gradient(to top left,
+            #faa434 0%,
+            #faa434 50%,
+            #FDC830 50%,
+            #FDC830 100%);
+
+            /* background-color: red; */
+}
+
+.mainSection button {
+  display: block;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
+  animation: pulse 2s infinite;
+}
+.mainSection button:hover {
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
