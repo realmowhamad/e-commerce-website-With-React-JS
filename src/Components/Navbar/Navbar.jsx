@@ -42,16 +42,16 @@ export default function Navbar() {
             </Link>
 
             <ul className={`${isMobile && mobileMenu ? `${style.mobile__Navbar}` : `${isMobile && !mobileMenu ? 'hidden' : `${style.navbar__ul} flex w-7/12 items-center h-full justify-around font-sfp_SemiBold text-neutral-700`}`}  `}>
-                <Link to={""}>
+                <Link to={"/category/men"}>
                     <li>Men</li>
                 </Link>
-                <Link to={""}>
+                <Link to={"/category/women"}>
                     <li>Women</li>
                 </Link>
-                <Link to={""}>
+                <Link to={"/category/kids"}>
                     <li>Kids</li>
                 </Link>
-                <Link to={""}>
+                <Link to={"/category/offers"}>
                     <li>Offers</li>
                 </Link>
             </ul>
