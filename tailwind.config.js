@@ -17,6 +17,7 @@ module.exports = {
       sfp_Regular: ["sfp_Regular"],
       sfp_SemiBold: ["sfp_SemiBold"],
     },
+
     screens: {
       'tablet': '640px',
       'laptop': '1024px',
@@ -28,9 +29,15 @@ module.exports = {
       xl: '1.25rem',
       '1xl': '1.563rem',
       '2xl': '2rem',
-      '2.5xl': '2.5',
+      '2.5xl': '2.5rem',
+      "3xl": "3rem"
 
     }
   },
   plugins: [],
 }
+// colors: {
+//   "lightGray": "#f6f6f6",
+//     "Orange": "#faa434",
+//       "gBlack": "#212121"
+// },

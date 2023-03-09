@@ -4,6 +4,12 @@
 
 @import url('./Assets/Fonts/style.css');
 
+
+:root{
+  --lightGray:#f6f6f6
+
+
+}
 body {
   margin: 0;
 

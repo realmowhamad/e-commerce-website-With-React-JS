@@ -2,196 +2,172 @@
   "products": [
     {
       "id": "GGOEUA86Ht37499",
-      "title": "Harris Elastic Waist Short",
+      "title": "Top Grey wool top",
       "description": "Show your Android pride by placing these 8 fun stickers on your technology products or accessories!",
-      "price": 29.99,
-      "image": "../Images/Harris Elastic Waist Short 39.00.jpg",
-      "category": "men",
+      "price": 1050,
+      "images": [{"id":1,"img":"../Images/TopGreywooltop1.png"},{"id":2,"img":"../Images/TopGreywooltop2.png"}],
+      "category": "women",
       "subcategory": [
-        "Waist short"
+        "top"
       ],
       "rating": 5,
-      "delivery":3,
-      "warranty":3,
-      "discount":10
+      "discount":0
     },
     {
       "id": "ZAOEGEBK094499",
-      "title": "LS Calvin Stripe Rugby Polo",
-      "description": "Show your Android pride by placing these 8 fun stickers on your technology products or accessories!",
-      "price": 69.99,
-      "image": "../Images/LS Calvin Stripe Rugby Polo 69.99.jpg",
-      "category": "men",
+      "title": "Grey wool skirt",
+      "description": "Midi skirt with asymmetrical hem. Medium-low waistline. Wrap closure with metal rings and long logo ribbons. Made of a fine, grey melange double-sided wool knit. The underside is customised with a contrasting FF motif, visible on the side drape.",
+      "price": 1290,
+      "images": [{"id":1,"img":"../Images/SkirtGrey-wool-skirt1.png"},{"id":2,"img":"../Images/SkirtGrey-wool-skirt2.png"}],
+      "category": "women",
       "subcategory": [
-        "polo"
+        "skirt"
       ],
       "rating": 5,
-      "delivery":3,
-      "warranty":3,
-      "discount":10
+      "discount":0
     },
     {
       "id": "QAONJYSU825124",
-      "title": "Dean Chino Pant",
-      "description": "Show your Android pride by placing these 8 fun stickers on your technology products or accessories!",
-      "price": 79.99,
-      "image": "../Images/Dean Chino Pant 79.99.jpg",
-      "category": "men",
+      "title": "Blue wool pullover",
+      "description": "Relaxed-fit pullover with high collar. Made of powder blue wool, featuring deep cut-out details on the sleeve underside and an asymmetrical slit at the front. The collar is embellished with a small slit fastened with matching-colour satin logo ties.",
+      "price": 2100,
+      "images": [{"id":1,"img":"../Images/pulloverBluewoolpullover.png"},{"id":2,"img":"../Images/pulloverBluewoolpullover2r.png"}],
+      "category": "women",
       "subcategory": [
-        "pant"
+        "pullover"
       ],
       "rating": 5,
-      "delivery":3,
-      "warranty":3,
       "discount":10
     },
     {
       "id": "MA812G5RT2UB77",
-      "title": "LS Heston Oxford Shirt",
-      "description": "Show your Android pride by placing these 8 fun stickers on your technology products or accessories!",
-      "price": 69.99,
-      "image": "../Images/LS Heston Oxford Shirt 69.99.jpg",
-      "category": "men",
+      "title": "Beige cashmere and wool pullover",
+      "description": "Long-sleeved pullover. Made of light beige wool and cashmere yarn. The underside of the border is decorated with the Fendi Mirror logo printed in a delicate contrasting tone, and visible in the knotted motif on the left side. Finished with cut-out detail on the neckline.",
+      "price": 1550,
+      "images": [{"id":1,"img":"../Images/Beige-cashmere-and-wool-pullover.png"},{"id":2,"img":"../Images/Beige-cashmere-and-wool-pullover2r.png"}],
+      "category": "women",
       "subcategory": [
-        "shirt"
+        "pullover"
       ],
       "rating": 4,
-      "delivery":3,
-      "warranty":3,
       "discount":10
     },
     {
       "id": "25MYB94J8YB5GG",
-      "title": "Rowan Hooded Shacket",
-      "description": "This 100% cotton YouTube Onesie for your baby will keep them comfortable with non-binding sleeves for full freedom of movement.",
-      "price": 99.99,
-      "image": "../Images/Rowan Hooded Shacket 99.99.jpg",
-      "category": "men",
+      "title": "White jersey T-shirt",
+      "description": "Cropped T-shirt with crew neck and short sleeves. Made of white jersey. Embellished with zipped patch pocket on the chest, raised Selleria stitching and contrasting Fendi Roma logo.",
+      "price": 560,
+      "images": [{"id":1,"img":"../Images/White-jersey-T-shirt.png"},{"id":2,"img":"../Images/White-jersey-T-shirt2.png"}],
+      "category": "women",
       "subcategory": [
-        "jaket"
+        "t-Shirt"
       ],
       "rating": 4,
-      "delivery":3,
-      "warranty":3,
       "discount":10
     },
     {
-      "id": "GGOEAFKA087499",
-      "title": "Harris Elastic Waist Short",
-      "description": "Show your Android pride by placing these 8 fun stickers on your technology products or accessories!",
-      "price": 39,
-      "image": "../Images/Harris Elastic Waist Short 39.00.jpg",
+      "id": "M6T33CR09MOIG",
+      "title": "VERSACE ALLOVER BOMBER JACKET",
+      "description": "A padded bomber jacket featuring a Versace Allover logo print, complete with striped ribbed trims.",
+      "price": 1760,
+      "images": [{"id":1,"img":"../Images/ALLOVER-BOMBER-JACKET.png"},{"id":2,"img":"../Images/ALLOVER-BOMBER-JACKET2.png"}],
       "category": "men",
       "subcategory": [
-        "Waist short"
+        "jacket"
       ],
-      "rating": 5,
-      "delivery":3,
-      "warranty":3,
-      "discount":10
-    },
-    {
-      "id": "LBC0Q15K5L6X1C",
-      "title": "Drop Shoulder Tee",
-      "description": "",
-      "price": 29.99,
-      "image": "../Images/Drop Shoulder Tee 29.99.jpg",
-      "rating": 5,
-      "category": [
-        "women"
-      ],
-      "subcategory": [
-        "Blouse"
-      ],
-         "delivery":3,
-         "warranty":3,
-         "discount":10
-      
-    },
-    {
-      "id": "9SVRIQ2KLHYBRX",
-      "title": "Astrid Tie Front Blouse",
-      "description": "",
-      "price": 59.99,
-      "image": "../Images/Astrid Tie Front Blouse 59.99.jpg",
       "rating": 4,
-      "category": [
-        "women"
-      ],
-      "subcategory": [
-        "Blouse"
-      ],
-         "delivery":3,
-         "warranty":3,
-         "discount":10
+      "discount":0
     },
     {
-      "id": "XL8KU1XW3TP3PT",
-      "title": "Ivy V Neck Ruffle Top",
-      "description": "",
-      "price": 59.99,
-      "image": "../Images/Ivy V Neck Ruffle Top 59.99.jpg",
-      "rating": 5,
-      "category": [
-        "women"
-      ],
+      "id": "P8S854Q7W96DFG",
+      "title": "LA MASCHERA LOGO SWEATSHIRT",
+      "description": "Made from cotton jersey, this crewneck sweatshirt has dropped shoulders and features a La Maschera rendition of the Varsity logo, a proud symbol of belonging to the Versace family.",
+      "price": 730,
+      "images": [{"id":1,"img":"../Images/LA-MASCHERA-LOGO-SWEATSHIRT.png"},{"id":2,"img":"../Images/LA-MASCHERA-LOGO-SWEATSHIRT2.png"}],
+      "category": "men",
       "subcategory": [
-        "Blouse"
+        "sweatshirt"
       ],
-         "delivery":3,
-         "warranty":3,
-         "discount":10
-    },
-    {
-      "id": "M78RQ55ZXL8KU1",
-      "title": "Katia Satin Shirt",
-      "description": "",
-      "price": 69.99,
-      "image": "../Images/Katia Satin Shirt 69.99.jpg",
       "rating": 4,
-      "category": [
-        "women"
-      ],
-      "subcategory": [
-        "Blouse"
-      ],
-         "delivery":3,
-         "warranty":3,
-         "discount":10
+      "discount":0
     },
     {
-      "id": "RMSUDCW0QQN1XG",
-      "title": "Olive Button Down Blouse",
-      "description": "",
-      "price": 59.99,
-      "image": "../Images/Olive Button Down Blouse 59.99.jpg",
-      "rating": 5,
-      "category": [
-        "women"
-      ],
+      "id": "ZEFPPB83749HPP",
+      "title": "LOGO WINDBREAKER JACKET",
+      "description": "In a lightweight nylon construction, this hooded windbreaker features a drawstring hem and hood, and multiple patch and flap pockets. The technical style is detailed with a breathable mesh lining and foiled logo print at the cuffs.",
+      "price": 2310,
+      "images": [{"id":1,"img":"../Images/LOGO-WINDBREAKER-JACKET.png"},{"id":2,"img":"../Images/LOGO-WINDBREAKER-JACKET2.png"}],
+      "category": "men",
       "subcategory": [
-        "Blouse"
+        "jacket"
       ],
-         "delivery":3,
-         "warranty":3,
-         "discount":10
+      "rating": 4,
+      "discount":0
     },
     {
-      "id": "NLWNLGU8UBM9G7",
-      "title": "Drop Shoulder Tee",
-      "description": "",
-      "price": 29.99,
-      "image": "../Images/Drop Shoulder Tee 29.99.jpg",
-      "rating": 5,
-      "category": [
-        "women"
-      ],
+      "id": "ZEFPPB83749HPP",
+      "title": "MEDUSA '95 CARGO MINI SKIRT",
+      "description": "A satin-finish mini skirt featuring the Medusa '95 belt hardware at the waist and statement cargo pockets at the front.",
+      "price": 1110,
+      "images": [{"id":1,"img":"../Images/MEDUSA-'95-CARGO-MINI-SKIRT.png"},{"id":2,"img":"../Images/MEDUSA-'95-CARGO-MINI-SKIR2T.png"}],
+      "category": "women",
       "subcategory": [
-        "Blouse"
+        "skirt"
       ],
-         "delivery":3,
-         "warranty":3,
-         "discount":10
+      "rating": 4,
+      "discount":0
+    },
+    {
+      "id": "Q82PO91DPA71SS",
+      "title": "GRECA ODISSEA TRAINERS",
+      "description": "With a top-stitched Greca motif on the sides, these lightweight Odissea trainers are set on dynamic rubber soles for a statement landing. They're detailed with a debossed logo at the heel counter.",
+      "price": 550,
+      "images": [{"id":1,"img":"../Images/GRECA-ODISSEA-TRAINERS.png"},{"id":2,"img":"../Images/GRECA-ODISSEA-TRAINERS.png"}],
+      "category": "men",
+      "subcategory": [
+        "shoes"
+      ],
+      "rating": 4,
+      "discount":0
+    },
+    {
+      "id": "8GH273HYD56ANA",
+      "title": "VERSACE ALLOVER DENIM JACKET",
+      "description": "In a boxy fit, this denim jacket features a washed Versace Allover logo, accented by enamel Medusa buttons. The collared style is finished with a leather logo patch and dual patch and side pockets.",
+      "price": 1840,
+      "images": [{"id":1,"img":"../Images/VERSACE-ALLOVER-DENIM-JACKET2.png"},{"id":2,"img":"../Images/VERSACE-ALLOVER-DENIM-JACKET2.png"}],
+      "category": "men",
+      "subcategory": [
+        "jacket"
+      ],
+      "rating": 4,
+      "discount":0
+    },
+    {
+      "id": "VH5E71AB963BAS",
+      "title": "MEDUSA SINGLE-BREASTED BLAZER",
+      "description": "This essential single-breasted blazer is crafted from pure virgin wool in a tailored silhouette. Sharp shoulder and a cinched waist are accented by a single Medusa button. The style is complete with peaked lapels.",
+      "price": 2270,
+      "images": [{"id":1,"img":"../Images/MEDUSA-SINGLE-BREASTED-BLAZER.png"},{"id":2,"img":"../Images/MEDUSA-SINGLE-BREASTED-BLAZER2.png"}],
+      "category": "women",
+      "subcategory": [
+        "blazer"
+      ],
+      "rating": 4,
+      "discount":0
+    },
+    {
+      "id": "WA7ZE99Q4B45SB",
+      "title": "SLASHED LA MASCHERA LOGO HOODIE",
+      "description": "This essential single-breasted blazer is crafted from pure virgin wool in a tailored silhouette. Sharp shoulder and a cinched waist are accented by a single Medusa button. The style is complete with peaked lapels.",
+      "price": 2270,
+      "images": [{"id":1,"img":"../Images/SLASHED-LA-MASCHERA-LOGO-HOODIE.png"},{"id":2,"img":"../Images/SLASHED-LA-MASCHERA-LOGO-HOODIE2.png"}],
+      "category": "women",
+      "subcategory": [
+        "hoodie"
+      ],
+      "rating": 4,
+      "discount":0
     }
   ],
    "HeaderBanner":[

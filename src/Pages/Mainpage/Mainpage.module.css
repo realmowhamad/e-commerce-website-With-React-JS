@@ -1,17 +1,24 @@
+
+
+.Main__ProductContainer > * {
+    aspect-ratio: 1;
+}
+
+
 @media screen and (max-width:1024px) {
     .mainSection {
         background: linear-gradient(to top left,
-                #faa434 0%,
-                #faa434 50%,
-                #FDC830 50%,
-                #FDC830 100%);
+                #f6f6f6 0%,
+                #f6f6f6 50%,
+                #fff 50%,
+                #fff 100%);
     }
 
 
 
     .mainSection button {
         display: block;
-        background: #ffffff;
+        background: #f6f6f6;
         cursor: pointer;
         box-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
         animation: pulse 2s infinite;
@@ -23,8 +30,8 @@
 
     @keyframes pulse {
         0% {
-            -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
-            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+            -moz-box-shadow: 0 0 0 0 rgba(246, 246, 246,0.4);
+            box-shadow: 0 0 0 0 rgba(246, 246, 246,0.4);
         }
 
         70% {
@@ -48,8 +55,8 @@
         background: linear-gradient(to left,
                 #fff 0%,
                 #fff 60%,
-                #faa434 60%,
-                #faa434 100%);
+                #f6f6f6 60%,
+                #f6f6f6 100%);
     }
 
     .mainSection button {
@@ -80,5 +87,6 @@
             box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
         }
     }
+
 
 }
