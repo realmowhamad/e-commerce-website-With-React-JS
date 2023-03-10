@@ -11,7 +11,8 @@
         "top"
       ],
       "rating": 5,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "ZAOEGEBK094499",
@@ -24,7 +25,8 @@
         "skirt"
       ],
       "rating": 5,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "QAONJYSU825124",
@@ -37,7 +39,8 @@
         "pullover"
       ],
       "rating": 5,
-      "discount":10
+      "discount":10,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "MA812G5RT2UB77",
@@ -50,7 +53,8 @@
         "pullover"
       ],
       "rating": 4,
-      "discount":10
+      "discount":10,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "25MYB94J8YB5GG",
@@ -63,7 +67,8 @@
         "t-Shirt"
       ],
       "rating": 4,
-      "discount":10
+      "discount":10,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "M6T33CR09MOIG",
@@ -76,7 +81,8 @@
         "jacket"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "P8S854Q7W96DFG",
@@ -89,10 +95,11 @@
         "sweatshirt"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
-      "id": "ZEFPPB83749HPP",
+      "id": "ZEFPQ983749HPP",
       "title": "LOGO WINDBREAKER JACKET",
       "description": "In a lightweight nylon construction, this hooded windbreaker features a drawstring hem and hood, and multiple patch and flap pockets. The technical style is detailed with a breathable mesh lining and foiled logo print at the cuffs.",
       "price": 2310,
@@ -102,7 +109,8 @@
         "jacket"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "ZEFPPB83749HPP",
@@ -115,7 +123,8 @@
         "skirt"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "Q82PO91DPA71SS",
@@ -128,7 +137,8 @@
         "shoes"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "8GH273HYD56ANA",
@@ -141,7 +151,8 @@
         "jacket"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "VH5E71AB963BAS",
@@ -154,7 +165,8 @@
         "blazer"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     },
     {
       "id": "WA7ZE99Q4B45SB",
@@ -167,7 +179,8 @@
         "hoodie"
       ],
       "rating": 4,
-      "discount":0
+      "discount":0,
+      "size":[{"sizeID":1,"value":"SM"},{"sizeID":2,"value":"MD"},{"sizeID":3,"value":"LG"},{"sizeID":4,"value":"XL"},{"sizeID":5,"value":"XXL"}]
     }
   ],
    "HeaderBanner":[

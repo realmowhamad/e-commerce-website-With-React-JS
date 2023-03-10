@@ -8,11 +8,7 @@ const Category = () => {
     const productsState = useSelector(state => state.Products)
     const { products } = productsState
     const params = useParams()
-
     const filteredProducts = products.filter(item => item.category === params.title)
-
-    console.log(filteredProducts);
-
 
     if (filteredProducts.length === 0) return <p>There is no Item Availaible</p>
     return (

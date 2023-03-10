@@ -41,7 +41,7 @@ export default function Navbar() {
                 </div>
             </Link>
 
-            <ul className={`${isMobile && mobileMenu ? `${style.mobile__Navbar}` : `${isMobile && !mobileMenu ? 'hidden' : `${style.navbar__ul} flex w-7/12 items-center h-full justify-around font-sfp_SemiBold text-neutral-700`}`}  `}>
+            <ul className={`${isMobile && mobileMenu ? `${style.mobile__Navbar}` : `${isMobile && !mobileMenu ? 'hidden' : `${style.navbar__ul} flex w-7/12 items-center h-full justify-around font-sfp_SemiBold text-neutral-700 z-50`}`}  `}>
                 <Link to={"/category/men"}>
                     <li>Men</li>
                 </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
             <div className={`${style.navbar__icons}   flex items-center justify-between `}>
 
 
-                <div className={style.searchBox}>
+                {/* <div className={style.searchBox}>
 
                     <input className={style.searchInput} type="text" name="" placeholder="Search" />
                     <button className={style.searchButton} href="#">
@@ -71,11 +71,11 @@ export default function Navbar() {
                             <RiSearch2Line />
                         </i>
                     </button>
-                </div>
+                </div> */}
                 <Link to={"/checkout"}>
                     <div className="navbar__basket flex items-center justify-center relative">
-                        <i className='text-[1.5rem]'><RiShoppingBag3Fill /></i>
-                        <p className='bg-[#faa434]  rounded-full absolute px-2 top-[-10px] left-8 flex items-center justify-center text-white'>{basketItems.length}</p>
+                        <i className='text-[1.5rem] text-gray-800'><RiShoppingBag3Fill /></i>
+                        <p className='bg-gray-800  rounded-full absolute px-2 top-[-10px] left-8 flex items-center justify-center text-white'>{basketItems.length}</p>
                     </div>
                 </Link>
 

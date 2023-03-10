@@ -1,5 +1,18 @@
-.productDetail__Container{
-    height:calc(100vh - 3.5rem);
+.productDetail__Container {
+    height: calc(100vh - 3.5rem);
 
 
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .productDetail__Description {
+        width: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        line-height: 35px;
+        padding: 12px 0 ;
+        text-overflow: ellipsis;
+    }
 }

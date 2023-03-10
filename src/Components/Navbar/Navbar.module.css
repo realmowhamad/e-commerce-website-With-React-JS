@@ -4,7 +4,7 @@
 
 
 .navbar__icons i {
-    color: #faa434;
+    color: #1f2937;
     margin: 0 20px;
     font-size: 30px;
 }
@@ -15,28 +15,29 @@
 }
 
 .navbar__ul li:hover {
-    color: #faa434;
+    color: #1f2937;
     cursor: pointer;
 }
 
 .mobile__Navbar {
-    background-color: white;
+    background-color: #f6f6f6;
     width: 100%;
     position: absolute;
     top: 3.5rem;
     left: 0;
     transition: all 3s 1;
+    z-index:100
 }
 
 .mobile__Navbar li {
     padding: 1rem;
-    border-bottom: 0.5px solid #212121;
+    border-bottom: 0.1px solid #212121;
     font-family: "sfp_Regular";
 }
 
 .mobile__Navbar a :hover {
-    background-color: #faa434;
-    border-bottom: 0.5px solid #212121;
+    background-color: #1f2937;
+
     color: #fff;
 
 }

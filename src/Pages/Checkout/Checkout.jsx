@@ -13,10 +13,6 @@ export default function Checkout() {
     //     console.log(total, currentValue);
     // })
 
-
-
-
-
     return (
         <div className={`${style.CheckoutContainer} p-0 m-0 bg-gray-50`}>
             <div className={`${style.checkout__list} flex flex-col mx-auto  justify-start items-center px-5 `}>
@@ -25,9 +21,9 @@ export default function Checkout() {
                 ))}
             </div>
             <div className={`${style.Checkout__bottomBar} w-full bottom-0 h-20 border-t-2 flex flex-row-reverse bg-white px-2 items-center justify-between`}>
-                <button className="bg-[#faa434] px-20 py-2 rounded-md font-semibold mr-5 text-xl text-white"   >Pay</button>
+                <button className="bg-gray-800 px-20 py-2 rounded-md font-semibold mr-5 text-xl text-white"   >Pay</button>
 
-                <p className="text-[#faa434] px-3 py-2 rounded-md font-semibold ml-5 text-xl border-[#faa434] border ">
+                <p className="text-gray-800 px-3 py-2 rounded-md font-semibold ml-5 text-xl border-gray-800 border ">
                     ${sumPrice}
                 </p>
 

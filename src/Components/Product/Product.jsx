@@ -23,8 +23,8 @@ export default function Product(props) {
     const firstImage = images.findIndex(item => item.id === 1)
 
     const addToBasket = (id) => {
-        setIsFavorite(prev => !prev)
-        // Navigate(`/product/${id}`)
+        // setIsFavorite(prev => !prev)
+        Navigate(`/product/${id}`)
         // setmModal(true)
         // setTimeout(() => {
         //     setmModal(false)
