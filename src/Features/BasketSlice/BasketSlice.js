@@ -25,7 +25,7 @@ const BasketSlice = createSlice({
             const { id, Quantity } = action.payload
             const itemChanged = state.basketItems.findIndex(item => item.id === id)
             state.basketItems[itemChanged].quantity = Quantity
-            console.log(id, Quantity);
+
         }
     }
 })

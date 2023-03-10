@@ -8,7 +8,8 @@ const store = configureStore({
     reducer: {
         Basket: BasketSlice,
         Products: ProductSlice,
-        Banners: BannerSlice
+        Banners: BannerSlice,
+
     }
 })
 

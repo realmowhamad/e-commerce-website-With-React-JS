@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { getAsyncProducts } from "../../Features/ProductSlice/ProductSlice";
-import { AiFillHeart } from 'react-icons/ai'
+import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai'
 import { BiMinus, BiPlus, BiCheck } from 'react-icons/bi'
 import style from './ProductDetail.module.css'
 import { ADD_ITEM } from "../../Features/BasketSlice/BasketSlice";
@@ -16,6 +16,7 @@ export default function ProductDetail() {
     const { basketItems } = Basket
     const { products } = ProductState
     const [loadedItem, setLoadedItem] = useState(null)
+    const [isFavorite, setIsFavorite] = useState(null)
     const [Quantity, setQuantity] = useState(1)
     const [discountValue, setdiscountValue] = useState(null)
     const [modal, setmModal] = useState(false)
@@ -23,6 +24,11 @@ export default function ProductDetail() {
     const [selectedSize, setSelecedSize] = useState(null)
     const params = useParams()
     const Dispatch = useDispatch()
+
+
+
+    // Dependencies ------------------------------------------------
+
 
     useEffect(() => {
         Dispatch(getAsyncProducts())
@@ -37,6 +43,16 @@ export default function ProductDetail() {
             setPreviewImage(loadedItem.images[0].img)
         }
     }, [loadedItem])
+
+    useEffect(() => {
+
+
+        if (isFavorite === false) {
+            console.log("kiiir");
+        }
+
+    }, [isFavorite])
+
 
 
     //* ------------------Handlers --------------------
@@ -75,6 +91,8 @@ export default function ProductDetail() {
             alert("Yo cant add this item")
         }
     }
+
+
 
     const imageHandler = (itemID) => {
         const imagge = loadedItem.images.find(image => image.id === itemID)
@@ -137,7 +155,10 @@ export default function ProductDetail() {
                         <p className="font-sfp_Medium text-1xl">${discountValue}</p>
                     </div>
                     <div className="flex items-center justify-around laptop:mt-4 font-semibold text-xl">
-                        <button className="p-5 text-2xl text-gray-800"><AiFillHeart /></button>
+                        <button
+                            className="p-5 text-2xl text-gray-800">
+                            {isFavorite ? <AiFillHeart /> : <AiOutlineHeart />}
+                        </button>
                         <button
                             onClick={addToBasket}
                             className="flex-1 flex justify-center bg-gray-800 hover:bg-gray-800 p-3 rounded-[10px] text-white">Add to Basket</button>
